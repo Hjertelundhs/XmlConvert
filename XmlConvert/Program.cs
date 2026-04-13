@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Xml.Linq;
+﻿using System.Xml.Linq;
 
 class Program
 {
@@ -9,7 +6,7 @@ class Program
     {
 
         var path = "input.txt";
-        
+
         if (!File.Exists(path))
         {
             Console.WriteLine($"Filen hittades inte: {Path.GetFullPath(path)}");
